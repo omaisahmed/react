@@ -1,0 +1,42 @@
+.main-div{
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    background-color: "blue";
+
+    position: absolute;
+    top: '50%';
+    left: '50%';
+    margin-top: '-50px';
+    margin-left: '-50px';
+    width: '100px';
+    height: '100px';
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+.main{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px;
+    
+
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    overflow-y: auto
+}
+
+/**
+<div style={{marginTop:'-50%'}}>
+                <h2 className="topText">{this.state.topText}</h2>
+                </div>
+                <div>
+                <h2 className="bottomText">{this.state.bottomText}</h2>
+            </div>
+
+            **/
